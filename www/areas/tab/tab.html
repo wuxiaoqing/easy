@@ -1,0 +1,22 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+booknavigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+    <!-- bookTab -->
+    <ion-tab title="正在上映" icon-off="ion-ios-book-outline" icon-on="ion-ios-book" href="#/tab/in_theaters">
+        <ion-nav-view name="tab-inTheaters"></ion-nav-view>
+    </ion-tab>
+    <!-- movie Tab -->
+    <ion-tab title="movie" icon-off="ion-ios-film-outline" icon-on="ion-ios-film" href="#/tab/movie">
+        <ion-nav-view name="tab-movie"></ion-nav-view>
+    </ion-tab>
+    <!-- music Tab -->
+    <ion-tab title="music" icon-off="ion-ios-musical-notes" icon-on="ion-ios-musical-note" href="#/tab/music">
+        <ion-nav-view name="tab-music"></ion-nav-view>
+    </ion-tab>
+    <!-- Account Tab -->
+    <ion-tab title="account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
+        <ion-nav-view name="tab-account"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>
